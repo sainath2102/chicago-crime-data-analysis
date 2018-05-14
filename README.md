@@ -4,6 +4,8 @@ The data for analysis is obtained from this [link](https://data.cityofchicago.or
 
 Using Core APIs in Spark some useful insights were drawn from the dataset like the most common types of crime, common locations for different types of crimes, most unsafe times of a day in locations that had highest crime rates.
 
+This dataset reflects reported incidents of crime (with the exception of murders where data exists for each victim) that occurred in the City of Chicago from January 1st 2001 to December 31st 2017 and contains 6595264 records.
+
 The program takes three arguments.
 - The first one is to set spark to run in local mode or to connect to a yarn client. It takes one of the two values (local, yarn-client).
 - The second argument is the path for input data.
